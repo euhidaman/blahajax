@@ -18,7 +18,7 @@ const Hero = ({ appType, headLine, description, mainActionText, extraActionText 
                     <button
                         className="pt-3 pb-3 pl-12 pr-12 text-2xl font-semibold text-center text-white transition-all bg-orange-400 rounded-full shadow-2xl lg:ml-5 hover:bg-blue-400 focus:outline-none ring-4 ring-orange-600 lg:ring-2 lg:font-medium "
                     >
-                        {mainActionText}
+                        <a href="/game">{mainActionText}</a>
                     </button>
                     <button
                         className="pt-3 pb-3 pl-12 pr-12 text-2xl font-semibold text-center text-white transition-all bg bg-orange-600 rounded-full shadow-2xl lg:ml-5 hover:bg-blue-400 focus:outline-none ring-4 ring-orange-600 lg:ring-2 lg:font-medium "
