@@ -5,11 +5,10 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import bl from '../bla.svg'
 
 const navigation = [
-    { name: 'Home', href: '#', current: true },
-    { name: 'About', href: '#', current: true },
-    { name: 'Blahaj Facts', href: '#', current: true },
-    { name: 'Games', href: '#', current: true },
-    { name: 'Jokes', href: '#', current: false },
+    { name: 'Home', href: '/', current: true },
+    { name: 'About', href: '/about', current: true },
+    { name: 'Blahaj Facts', href: '/facts', current: true },
+    { name: 'Game', href: '/game', current: true },
 ]
 
 function classNames(...classes) {
